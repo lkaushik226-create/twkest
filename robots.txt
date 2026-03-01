@@ -1,0 +1,29 @@
+# Robots.txt for THRIVE WITH KAUSHIK
+# Updated: 2024-03-01
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /checkout
+Disallow: /cart
+Disallow: /api/
+
+# Prevent indexing of specific files
+Disallow: /*.json$
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://thrivewithkaushik.com/sitemap.xml
+
+# Crawl delay (optional - be nice to smaller servers)
+Crawl-delay: 1
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
